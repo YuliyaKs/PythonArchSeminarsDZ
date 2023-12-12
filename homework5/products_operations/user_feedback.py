@@ -1,7 +1,7 @@
 from homework5.product_data.product import Product
 
 
-# Класс отзывы
+# Отзывы покупателя
 class UserFeedback:
 
     user_feedbacks = {}
@@ -9,10 +9,10 @@ class UserFeedback:
     def __init__(self, user_feedbacks):
         self.user_feedbacks = user_feedbacks
 
-    # Добавить отзыв на товар
+    # Добавляем отзыв на товар (товар: отзыв)
     def add_feedback(self, product: Product, feedback: str):
         self.user_feedbacks[product] = feedback
 
-    # Удалить отзыв на товар
-    def dell_product(self, product):
+    # Удаляем отзыв на товар
+    def dell_feedback(self, product):
         self.user_feedbacks.pop(product)

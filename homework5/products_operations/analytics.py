@@ -1,7 +1,8 @@
-from homework5.product_data.cart import Cart
+from homework5.products_operations.cart import Cart
 from homework5.product_data.shop_products import ShopProducts
 
 
+# Аналитика
 class Analytics:
 
     # Количество видов товаров в магазине

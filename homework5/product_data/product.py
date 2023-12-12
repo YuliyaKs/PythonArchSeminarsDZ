@@ -1,3 +1,4 @@
+# Товары для магазина
 class Product:
     def __init__(self, id_prod: int, name: str, price: int):
         self.id_prod = id_prod
